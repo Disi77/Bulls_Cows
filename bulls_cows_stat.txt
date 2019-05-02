@@ -1,0 +1,1 @@
+[('Pepa', '32 sec', 8), ('Radek', '1 min 18 sec', 9), ('Majka', '41 sec', 11), ('Maruna', '44 sec', 12), ('Jirka', '52 sec', 12), ('Lucie', '59 sec', 15), ('abcdefghij', '2 min 11 sec', 18), ('Jarda', '50 sec', 21), ('Petra', '1 min 10 sec', 34), ('Zuzka', '2 min 13 sec', 58), ('Honza', '5 min 12 sec', 75)]
