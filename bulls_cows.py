@@ -107,12 +107,23 @@ def write_stat_to_file(result):
         file.write(str(results))
 
 
-def main():
-    print(''' Hi there !!!
-I've generated a random 4 digit number for you.
-Let's play a bulls and cows game.
-Enter a number.
+def intro():
+    print('''Hi there!
+    I've generated a secret random 4 digit number for you.
+    Your task is to guess, what number it is.
+
+    Enter a 4 digit number where the digits will not repeat.
+
+    If the matching digits:
+        * are in their right positions, they are "bulls",
+        * if in different positions, they are "cows".
+
+    Try to guess what number I am thinking of
     ''')
+
+
+def main():
+    intro()
     secret_num = generate_number()
     # print('SECRET NUMBER: ', secret_num)
     count_try = 0
